@@ -1,14 +1,10 @@
 import 'dart:io';
 
-/// Updates export statements in Dart [barrel files](https://medium.com/@ugamakelechi501/barrel-files-in-dart-and-flutter-a-guide-to-simplifying-imports-9b245dbe516a) within the current directory.
+/// Install with command `dart pub global activate --source path .`
+/// in the root of the project
 ///
-/// installation in cmd of M$ Windows:
-/// $ cd <to this project directory>
-/// REM add the current directory to the PATH environment variable
-/// $ set PATH=%CD%;%PATH%
-///
-/// run (the update_exports.bat file):
-/// 'export_statements'
+/// Run with command `export_statements`
+/// in the project folder that contains a barrel file that needs to be updated.
 void main(List<String> arguments) async {
   await exportBarrelFiles();
 }
