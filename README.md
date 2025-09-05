@@ -4,4 +4,4 @@ A command-line application to update export statements in Dart [barrel files](ht
 Install with command `dart pub global activate --source path .` in the root of this project
 
 ## run (the update_exports.bat file):
-Run with command `export_statements` in the project folder that contains a barrel file that needs to be updated.
+Run with command `update_exports` in the project folder that contains a barrel file that needs to be updated.
